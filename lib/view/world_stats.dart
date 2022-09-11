@@ -110,6 +110,11 @@ class _WorldStatsScreenState extends State<WorldStatsScreen>
                                       title: "Today Deaths",
                                       value: snapshot.data!.todayDeaths!
                                           .toString()),
+                                  ReusableRow(
+                                    title: "affectedCountries",
+                                    value: snapshot.data!.affectedCountries
+                                        .toString(),
+                                  )
                                 ],
                               ),
                             ),
